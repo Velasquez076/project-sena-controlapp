@@ -2021,7 +2021,7 @@ public class Sistema_Ventas extends javax.swing.JFrame {
     }//GEN-LAST:event_txtNitProveedorKeyTyped
 
     private void btnEliminarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarClienteActionPerformed
-        if ("".equals(txtIdProveedor.getText())) {
+        if ("".equals(txtIdCliente.getText())) {
             JOptionPane.showMessageDialog(null, "¡Seleccione Una Fila!");
         }
         if (!"".equals(txtIdCliente.getText())) {
